@@ -1,0 +1,268 @@
+/*---------------------------- RESETS ----------------------------*/
+
+* {
+    margin: 0; 
+    padding: 0; 
+    font-size:100%; 
+    border: none; 
+    outline: none; 
+    font-weight: 300; 
+    box-sizing: border-box; 
+    font-family: 'Arial';
+}
+
+body {
+    background-color: #FFFFFF;
+} 
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+/*---------------------------- NAVBAR ----------------------------*/
+
+/* #2A623D #D1AF4D #CC3936 #70a369*/
+#navbar{
+    background-color: #1c1c1c;
+    position: fixed;
+    z-index: 1;
+   /* margin-top: 15px;*/
+    width: 100%;
+    height: 75px;
+}
+
+#navbar-menu {
+    overflow: hidden;
+    float:left;
+    margin-right:5px;
+}
+
+.fixed {
+    position: fixed; 
+    margin-top:0;
+    z-index: 1;
+    opacity: 0.7;
+}
+
+#logosquare{
+    width: 100px;
+    height: 80px;
+    background-color: #2A623D;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    float: right;
+    margin-top: 2px;
+    padding-left: 10px;
+    z-index: 10;
+}
+
+/*---------------------------- HEADER ----------------------------*/
+
+.cabecalho {
+    width:100%; 
+    float:left; 
+    padding: 3% 4%;
+}
+
+.logo {
+    position: absolute;
+    width:65px; 
+    height:65px;
+    right: 0; 
+    margin-top: 2px;
+    margin-right: 15px;
+    background: url(imgs/ZeldaLogo.png) center center/65px no-repeat; 
+    font-size:0%;
+    z-index: 20;
+}
+
+/*---------------------------- HEADER BUTTON MENU ----------------------------*/
+
+.menu {
+    position: fixed;
+    width: 100%; 
+    height: 50%; 
+    margin-top: 75px;
+    background-color: #303030; 
+    top:0; 
+    left:0;  
+    display:none;
+    z-index: 5;
+}
+
+#btn-menu {
+    width: 50px; 
+    height: 50px; 
+    float: left;
+    margin-left: 7px;
+    margin-top: 11px;
+    text-align: center; 
+    color: #FFFFFF; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    background: linear-gradient(to right, #2A623D, #70a369);
+}
+
+#btn-close {
+    width: 50px; 
+    height: 50px; 
+    float: left;
+    margin-left: 7px;
+    margin-top: 11px;
+    font-size: 1.8em;
+    padding-bottom: 5px;
+    text-align: center;
+    color: #FFFFFF; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    background: linear-gradient(to right, #2A623D, #70a369);
+    display: none;
+}
+
+.menu ul {
+    width: 100%; 
+    float: left; 
+    text-align: center;
+}
+
+.menu li {
+    padding: 3%;
+}
+
+.menu li a {
+    font-size: 2em; 
+    color:  #FFFFFF; 
+    padding: 3% 3% 1.5% 3%;
+}
+
+.menu li a:hover {
+    color: #2A623D;
+}
+
+
+/*----------------------------- BREAKPOINTS ------------------------------*/
+@media screen and (min-width: 400px) {
+
+}
+
+@media screen and (min-width: 768px) {
+
+}
+
+@media screen and (min-width: 846px) {
+    
+    .logo {
+    width:65px; 
+    height:65px;
+    float:right; 
+    margin-top: 2px;
+    margin-right: 15px;
+    background: url(imgs/ZeldaLogo.png) center center/65px no-repeat; 
+    font-size:0%;
+    }
+   
+    #btn-menu {
+        display: none;
+    }
+    
+    #btn-close {
+        display: none;
+    }
+    
+    .menu {
+        position: static;
+        width: auto;
+        height: 75px;
+        line-height: 75px;
+        margin-left: 10px;
+        margin-top: 0px;
+        float: left;
+        background-color: #1c1c1c;
+        display: block; !important    
+    }
+    
+    .menu li {
+        padding: 0;
+        float: left;
+        display: inline;
+    }
+    
+    .menu li a {
+        color: #FFFFFF; 
+        font-size: 1.7em; 
+        padding: 15px 30px 15px 30px;
+    }
+    
+    .menu li a:hover {
+        border: none;
+        color: #2A623D;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    #logosquare{
+    width: 140px;
+    height: 115px;
+    background-color: #2A623D;
+    }
+
+    .logo {
+        width:110px; 
+        height:110px;
+        background: url(imgs/ZeldaLogo.png) center center/110px no-repeat; 
+    }
+    
+    .menu li a { 
+        font-size: 1.8em;
+        padding: 15px 45px 15px 45px;
+    }
+    
+}
+
+@media screen and (min-width: 1280px) {
+    #logosquare{
+    width: 140px;
+    height: 115px;
+    background-color: #2A623D;
+    }
+
+    .logo {
+        width:110px; 
+        height:110px;
+        background: url(imgs/ZeldaLogo.png) center center/110px no-repeat; 
+    }    
+    
+    .menu li a {
+        font-size: 1.9em;
+        padding: 15px 80px 15px 80px;
+    }
+    
+}
+
+@media screen and (min-width: 1440px) {
+    #logosquare{
+    width: 140px;
+    height: 115px;
+    background-color: #2A623D;
+    }
+
+    .logo {
+        width:110px; 
+        height:110px;
+        background: url(imgs/ZeldaLogo.png) center center/110px no-repeat; 
+    }
+    
+    .menu li a {
+        font-size: 2em;
+        padding: 15px 110px 15px 110px;
+    }
+    
+}
