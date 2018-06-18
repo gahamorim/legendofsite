@@ -147,6 +147,42 @@ img {
     color: #2A623D;
 }
 
+/*----------------------------- FOOTER ------------------------------*/
+#footer-upper{
+    position: fixed;
+    left: 0;
+    bottom: 0.1;
+    width: 100%;
+    height: 17%;
+    padding-top: 0.5em;
+    background-color: #1c1c1c;
+    color: white;
+    text-align: center;
+}
+
+#footer-email{
+    position: fixed;
+    left: 0;
+    bottom: 0.1;
+    width: 100%;
+    height: 8%;
+    padding-top: 0.4em;
+    background-color: #40403f;
+    color: white;
+    text-align: center;
+}
+
+#footer-bottom{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 4%;
+    padding-top: 0.4em;
+    background-color: #2A623D;
+    color: white;
+    text-align: center;
+}
 
 /*----------------------------- BREAKPOINTS ------------------------------*/
 @media screen and (min-width: 400px) {
