@@ -149,37 +149,48 @@ img {
 
 /*----------------------------- FOOTER ------------------------------*/
 #footer-upper{
-    left: 0;
-    bottom: 0.1;
-    width: 100%;
-    height: 17%;
-    padding-top: 0.5em;
     background-color: #1c1c1c;
-    color: white;
     text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+#footer-upper p{
+    text-align: center;
+    color: white;
+    padding-top: 10px;
+	padding-bottom: 10px;
 }
 
 #footer-email{
-    left: 0;
-    bottom: 0.1;
-    width: 100%;
-    height: 8%;
-    padding-top: 0.4em;
     background-color: #40403f;
-    color: white;
     text-align: center;
 }
 
-#footer-bottom{
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    height: 4%;
-    padding-top: 0.4em;
-    background-color: #2A623D;
+#footer-email p{
+    text-align: center;
     color: white;
+    padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+#footer-email p:hover{
+    cursor:pointer;
+    text-decoration: underline;
+}
+
+#footer-bottom{
+    background-color: #2A623D;
     text-align: center;
 }
+
+#footer-bottom p{
+    text-align: center;
+    color: white;
+    padding-top: 10px;
+	padding-bottom: 10px;
+}
+
 
 /*----------------------------- BREAKPOINTS ------------------------------*/
 @media screen and (min-width: 400px) {
