@@ -149,7 +149,6 @@ img {
 
 /*----------------------------- FOOTER ------------------------------*/
 #footer-upper{
-    position: fixed;
     left: 0;
     bottom: 0.1;
     width: 100%;
@@ -161,7 +160,6 @@ img {
 }
 
 #footer-email{
-    position: fixed;
     left: 0;
     bottom: 0.1;
     width: 100%;
@@ -173,7 +171,6 @@ img {
 }
 
 #footer-bottom{
-    position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
