@@ -146,6 +146,12 @@ img {
 .menu li a:hover {
     color: #2A623D;
 }
+
+/*----------------------------- VIDEO ------------------------------*/
+#video-container{
+    padding-top: 76px;
+}
+
 /*----------------------------- TITULOS SECOES ------------------------------*/
 h1 {
     text-align: center;
