@@ -177,9 +177,42 @@ h1 {
     width: 35%;
 }
 
-/*----------------------------- CAROUSEL ------------------------------*/
-.left carousel-control{
-    color: #2A623D;
+/*----------------------------- SECAO CONTATO ------------------------------*/
+#Contato h3{
+    text-align: center;
+}
+
+.submit-button {
+    padding: 15px 25px;
+    font-size: 20px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #2A623D;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 5px #999;
+    margin-right:10px;
+    align-self: center;
+}
+
+.submit-button:hover {background-color: #3e8e41}
+
+.submit-button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 2px #666;
+  transform: translateY(2px);
+}
+
+input[type=text]{
+    background-color: #2A623D;
+    color: white;
+    font-size: 130%;
+}
+
+::placeholder{
+    color: white;
 }
 
 /*----------------------------- FOOTER ------------------------------*/
@@ -227,6 +260,7 @@ h1 {
     padding-top: 10px;
 	padding-bottom: 10px;
 }
+
 
 
 /*----------------------------- BREAKPOINTS ------------------------------*/
