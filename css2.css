@@ -146,6 +146,41 @@ img {
 .menu li a:hover {
     color: #2A623D;
 }
+/*----------------------------- TITULOS SECOES ------------------------------*/
+h1 {
+    text-align: center;
+}
+
+/*----------------------------- SECAO SOBRE ------------------------------*/
+
+#sobre-container {
+    padding-top: 1em;
+    width: auto;
+    height: 50%;
+    background-color: #2A623D; 
+}
+
+#sobre-container h1{
+    color:white;
+}
+
+#sobre-container p{
+    color:white;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 35%;
+}
+
+/*----------------------------- CAROUSEL ------------------------------*/
+.left carousel-control{
+    color: #2A623D;
+}
 
 /*----------------------------- FOOTER ------------------------------*/
 #footer-upper{
