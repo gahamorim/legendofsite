@@ -33,7 +33,7 @@
             
             <nav class="menu"> 
                 
-                <ul>
+                <ul id="redirect">
                     <li><a href="index.html">Home</a></li>
                     <li><a href="#Galeria">Galeria</a></li>
                     <li><a href="#Sobre">Sobre</a></li>
@@ -50,6 +50,13 @@
                     }
                     
                     document.getElementById("btn-close").onclick = function() {
+                        var x = document.querySelectorAll(".menu");
+                        x[0].style.display = "none";
+                        document.getElementById("btn-menu").style.display = 'inline';
+                        document.getElementById("btn-close").style.display = 'none';
+                    }
+
+                    document.getElementById("redirect").onclick = function() {
                         var x = document.querySelectorAll(".menu");
                         x[0].style.display = "none";
                         document.getElementById("btn-menu").style.display = 'inline';
