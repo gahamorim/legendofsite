@@ -144,8 +144,15 @@ img {
 }
 
 .menu li a:hover {
+    height: 30px;
+    width: 30px;
+    border-radius: 10px;
+    background-color: white;
     color: #2A623D;
+    text-decoration: none;
+    transition: 0.4s;
 }
+
 
 /*----------------------------- VIDEO ------------------------------*/
 #video-container{
